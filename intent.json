@@ -1,0 +1,68 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "LIST_OF_CHANTS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "SivapithanChants",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SivaSwamiMoolaMantra",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ValaVelaVigaravaChant",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "Cancel"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "Stop"
+        ]
+      },
+      {
+        "name": "sivapithanchants",
+        "samples": [
+          "Start SivaSwami MoolaMantra",
+          "open sivapithan chants",
+          "play sivapithan chanting"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "sivapithanchants"
+  }
+}
